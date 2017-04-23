@@ -4,6 +4,8 @@
     htmlCanvas = document.getElementById('c'),
     // Obtain a graphics context on the canvas element for drawing.
     ctx = htmlCanvas.getContext('2d');
+ctx.strokeStyle = "rgb(255, 0,0)";
+ctx.strokeText("Believe start", 100,60);
 
    // Start listening to resize events and draw canvas.
    initialize();
